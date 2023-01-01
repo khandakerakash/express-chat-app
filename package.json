@@ -1,0 +1,32 @@
+{
+  "name": "express-chat-app",
+  "version": "1.0.0",
+  "description": "This Chat Application Development for my personal development practice purpose. I've learned it from the \"Learn with Sumit - LWS - Bangladesh\"  Youtube channel. I'm grateful with Sumit Dada.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon app.js",
+    "prod": "NODE_ENV=production node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khandakerakash/express-chat-app.git"
+  },
+  "author": "Khandaker Akash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khandakerakash/express-chat-app/issues"
+  },
+  "homepage": "https://github.com/khandakerakash/express-chat-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
